@@ -1,9 +1,8 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import ghPages from 'vite-plugin-gh-pages';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-// Replace 'your-username' and 'your-repo' accordingly
+// replace with your actual repo name
 export default defineConfig({
-  base: 'fetch-assignment',
-  plugins: [react(), ghPages()],
-});
+  base: '/fetch-assignment/',
+  plugins: [react()],
+})
