@@ -21,9 +21,6 @@ If you wish to run this app on your local machine, use the following steps (you 
 
 - Clone this repo to your machine
 - Install all dependencies
-- Create a `.env.local` file with the following:
-  - `REACT_APP_BASE_URL=https://frontend-take-home-service.fetch.com`
-  - `REACT_APP_API_KEY= <Fetch-provided API key>`
 - Start the app using `npm run start`
 
 ## Usage
